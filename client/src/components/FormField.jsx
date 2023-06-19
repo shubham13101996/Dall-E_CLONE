@@ -7,7 +7,7 @@ const FormField = ({
   value,
   handleChange,
   isSurpriseMe,
-  handleSurprise,
+  handleSupriseMe,
   placeholder,
 }) => {
   return (
@@ -22,7 +22,7 @@ const FormField = ({
         {isSurpriseMe && (
           <button
             type="button"
-            onClick={handleSurprise}
+            onClick={handleSupriseMe}
             className="font-semibold text-xs bg-[#ECECF1] py-1 px-2 rounded-[5px] text-black"
           >
             Surprise Me
