@@ -39,6 +39,7 @@ const Home = () => {
         }
       } catch (error) {
         alert(error);
+        return;
       } finally {
         setLoading(false);
       }

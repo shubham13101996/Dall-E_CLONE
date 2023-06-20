@@ -38,6 +38,7 @@ const CreatePost = () => {
       } catch (error) {
         console.log(error);
         alert(error);
+        return;
       } finally {
         setGeneratingImg(false);
       }
@@ -64,6 +65,7 @@ const CreatePost = () => {
         navigate("/");
       } catch (error) {
         alert(error);
+        return;
       } finally {
         setLoading(false);
       }
